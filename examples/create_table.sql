@@ -1,3 +1,3 @@
-use database myco_db;
--- create schema test_schema;
-create table test_schema.test1 (name string);
+use database raw;
+-- create schema create_table_scripts;
+create table create_table_scripts.table1 (name string);
