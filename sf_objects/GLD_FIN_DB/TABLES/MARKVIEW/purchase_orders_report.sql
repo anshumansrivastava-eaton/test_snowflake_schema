@@ -1,4 +1,4 @@
-CREATE OR ALTER TABLE markview.purchase_orders_report(
+CREATE OR ALTER TABLE {{DB}}.markview.purchase_orders_report(
   workitem_instance_id double, 
   document_id double, 
   po_number string, 
