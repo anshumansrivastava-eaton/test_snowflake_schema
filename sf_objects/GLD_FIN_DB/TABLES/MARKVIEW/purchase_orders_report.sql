@@ -7,9 +7,9 @@ CREATE OR ALTER TABLE {{DB}}.markview.purchase_orders_report(
   supplier_number string, 
   plant string, 
   current_workflow_queue string, 
-  current_workflow_user string,
   test string,
-  test1 string
+  test1 string,
+  current_workflow_user string
   )
  
  
